@@ -19,7 +19,7 @@ The output i.e. the list of dependencies in written the output file in the form 
 $ python dependency_ectractor.py <<input_file>> <<output_file>> <<git_hub_key>> <<hop>>
 ```
 
-##Clustering analysis Methods:
+## Clustering analysis Methods:
 * Topic Modeling
 * k-means
 * GMM
@@ -46,7 +46,8 @@ pip install git+https://github.com/KnowledgeCaptureAndDiscovery/SMA.git
 ```
 
 ## Usage 
-How to use?
+
+
 
 ## Dependencies
 
@@ -63,4 +64,5 @@ SMA the following packages:
 * pyLDAvis 
 * matplotlib 
 * diskcache
-
+* pyspark
+* dotenv
