@@ -1,6 +1,25 @@
 # SMA
 Extend SOMEF to extract dependencies from the GitHub dependency page, and find software that has related functionality.        
-Clustering analysis Methods:
+
+## Dependency Extractor
+
+The current version of GitHub dependecy extractor is a fork of xkcd2347. The inital setup is the same as found of the github page https://github.com/edsu/xkcd2347
+
+To get dependency run the following command:
+
+The command takes four inputs
+- input file name
+- output_file
+- git_hub_key
+- hop 
+
+The output i.e. the list of dependencies in written the output file in the form of a json
+
+```sh
+$ python dependency_ectractor.py <<input_file>> <<output_file>> <<git_hub_key>> <<hop>>
+```
+
+##Clustering analysis Methods:
 * Topic Modeling
 * k-means
 * GMM
@@ -43,5 +62,5 @@ SMA the following packages:
 * re 
 * pyLDAvis 
 * matplotlib 
-
+* diskcache
 
