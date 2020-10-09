@@ -1,13 +1,9 @@
 # SMA
 Extend SOMEF to extract dependencies from the GitHub dependency page, and find software that has related functionality.        
 Clustering analysis Methods:
-* Kmeans
-* GMM
 * Topic Modeling
-
-## Requirements
-
-- Python 3.8
+* k-means
+* GMM
 
 
 ## Install from GitHub
