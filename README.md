@@ -11,7 +11,6 @@ Clustering analysis Methods:
 
 
 ## Install from GitHub
-To run SMA, please follow the next steps:
 
 Clone this GitHub repository
 
@@ -23,30 +22,13 @@ Install sma (note that you should be in the folder that you just cloned)
 
 ```
 cd sma
-pip install -U gensim
-pip install pyLDAvis
+pip install -e
 ```
 
-Test SOMEF installation
-
-```bash
-somef --help
+or
 ```
-
-If everything goes fine, you should see:
-
-```bash
-Usage: somef [OPTIONS] COMMAND [ARGS]...
-
-Options:
-  -h, --help  Show this message and exit.
-
-Commands:
-  configure  Configure credentials
-  describe   Running the Command Line Interface
-  version    Show somef version.
+pip install git+https://github.com/KnowledgeCaptureAndDiscovery/SMA.git
 ```
-
 
 ## Usage 
 
