@@ -1,12 +1,9 @@
 # SMA
-Extend SOMEF to extract dependencies from the GitHub dependency page, and find software that has related functionality.  information from readme files.
+Extend SOMEF to extract dependencies from the GitHub dependency page, and find software that has related functionality.        
 Clustering analysis Methods:
 * Kmeans
 * GMM
 * Topic Modeling
-
-## Documentation
-See full documentation at [https://somef.readthedocs.io/en/latest/](https://somef.readthedocs.io/en/latest/)
 
 ## Requirements
 
