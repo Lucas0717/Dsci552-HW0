@@ -1,7 +1,9 @@
 # SMA
 Extend SOMEF to extract dependencies from the GitHub dependency page, and find software that has related functionality.  information from readme files.
-
-**Authors:** Daniel Garijo, Param Bole, Bin Zhang, Gangyu Pan, Mohan Krishna Thota.
+Clustering analysis Methods:
+* Kmeans
+* GMM
+* Topic Modeling
 
 ## Documentation
 See full documentation at [https://somef.readthedocs.io/en/latest/](https://somef.readthedocs.io/en/latest/)
