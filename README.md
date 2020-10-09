@@ -27,10 +27,21 @@ pip install git+https://github.com/KnowledgeCaptureAndDiscovery/SMA.git
 ```
 
 ## Usage 
-How to use
+How to use?
 
 ## Dependencies
 
-SMA runs under Linux, Windows and MacOS, a Python 3.6 +installation is needed with the latest Numpy, gensim , json, os, re, pyLDAvis, matplotlib packages available.
+SMA  was written for Python 3 and tested on the following versions of Python:
+
+python 3.8
+
+SMA the following packages:
+* Numpy
+* gensim 
+* json
+* os 
+* re 
+* pyLDAvis 
+* matplotlib 
 
 
